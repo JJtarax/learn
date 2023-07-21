@@ -1,5 +1,3 @@
-package learn.Bro_code.java;
-
 public class _if {
     public static void main(String[] args) {
 

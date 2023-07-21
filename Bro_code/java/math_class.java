@@ -1,11 +1,9 @@
-package learn.Bro_code.java;
-
 import java.util.Scanner;
 
 public class math_class {
-    
+
     public static void main(String[] args) {
-        
+
         double a = 3.14;
         double b = -10;
 
@@ -36,7 +34,7 @@ public class math_class {
         double k;
         double l;
 
-        Scanner scanner = new Scanner (System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter side A: ");
         j = scanner.nextDouble();
@@ -44,7 +42,7 @@ public class math_class {
         System.out.println("Enter side B: ");
         k = scanner.nextDouble();
 
-        l = Math.sqrt((j*j)+(k+k));
+        l = Math.sqrt((j * j) + (k + k));
 
         System.out.println("The hypotenuse is : " + l);
 

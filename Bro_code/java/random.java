@@ -1,13 +1,11 @@
-package learn.Bro_code.java;
-
 import java.util.Random;
 
 public class random {
-    
+
     public static void main(String[] args) {
         Random random = new Random();
 
-        int x = random.nextInt(6)+1;
+        int x = random.nextInt(6) + 1;
         double y = random.nextDouble();
         boolean z = random.nextBoolean();
 
@@ -15,5 +13,5 @@ public class random {
         System.out.println(y);
         System.out.println(z);
     }
-    
+
 }

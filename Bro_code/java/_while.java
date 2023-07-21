@@ -1,5 +1,3 @@
-package learn.Bro_code.java;
-
 import java.util.Scanner;
 
 public class _while {
