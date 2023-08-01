@@ -20,7 +20,7 @@ public class Logical_Ops {
 
         // ||
         Scanner scanner = new Scanner(System.in);
-
+        
         System.out.println("You are playing a game! Press q or Q to quit");
         String response = scanner.next();
 
